@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const LiHeader = ({ text, to }) => {
   return (
     <li className="ListItem">
-      <NavLink to={to} activeClassName="active">{text}</NavLink>
+      <NavLink className="LiHeader" to={to} activeClassName="active">{text}</NavLink>
     </li>
   );
 };

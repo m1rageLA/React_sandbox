@@ -1,9 +1,21 @@
-.ListItem {
-    font-size: 18px;
-    list-style: none;
+@mixin fonts {
+  @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Montserrat&display=swap");
+  font-family: "M PLUS 1 Code", monospace;
+  font-family: "Montserrat", sans-serif;
+}
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
+.LiHeader {
+  display: flex;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  @include fonts();
+  margin: 0 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.imgHeader {
+  width: 100px;
 }

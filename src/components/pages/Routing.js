@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Shop = () => {
+const Routing = () => {
     return (
         <div>
-            Hello Shop
+            
         </div>
     );
 }
 
-export default Shop;
+export default Routing;
