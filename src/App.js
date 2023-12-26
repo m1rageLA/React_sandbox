@@ -5,18 +5,19 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as Pages from "./components/pages";
 
 function App() {
+
   return (
     <div className="App">
 
 
       <Router>
-
         <Organisms.Header />
 
         <Routes>
           <Route path="/" element={<Pages.Home />} />
           <Route path="/Routing" element={<Pages.Routing />} />
           <Route path="/Form" element={<Pages.Form />} />
+          <Route path="/ModalWindow" element={<Pages.ModalWindow/>}/>
         </Routes>
       </Router>
     </div>

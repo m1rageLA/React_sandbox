@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/css/molecules.css";
 import * as Atoms from "../atoms";
-import * as Pages from "../pages";
+
 
 const NavHeader = () => {
   return (
@@ -11,6 +11,7 @@ const NavHeader = () => {
           <Atoms.LiHeader text={"Home"} to={"/"} />
           <Atoms.LiHeader text={"Routing"} to={"/Routing"} />
           <Atoms.LiHeader text={"Form"} to={"/Form"} />
+          <Atoms.LiHeader text={"Modal window"} to={"/ModalWindow"} />
         </ul>
       </nav>
     </div>

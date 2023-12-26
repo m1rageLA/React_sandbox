@@ -1,7 +1,15 @@
+@mixin fonts {
+    @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Montserrat&display=swap");
+    font-family: "M PLUS 1 Code", monospace;
+    font-family: "Montserrat", sans-serif;
+  }  
+
 body {
     background-color: rgb(27, 26, 28);
     margin: 0;
     padding: 0;
     height: 100vh;
 }
+
+
 
